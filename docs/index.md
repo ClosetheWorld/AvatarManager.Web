@@ -6,3 +6,4 @@
 
 [XSOverlay](https://store.steampowered.com/app/1173510/XSOverlay/?l=japanese)をはじめとするオーバーレイツールと組み合わせて使用することで、ゲーム中でも分かりやすくアバターを切り替えることを目標として制作されています。
 
+![メイン画面](./img/mainwindow.png)
