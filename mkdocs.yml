@@ -19,8 +19,9 @@ extra:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - footnotes
+  - footnotes  
   - attr_list
+  - md_in_html
   - pymdownx.highlight:
       use_pygments: true
       noclasses: true
