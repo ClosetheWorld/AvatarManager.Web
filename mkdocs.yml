@@ -16,6 +16,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Closetheworld
   generator: false
+  analytics:
+    provider: google
+    property: G-W3CJBBK5LD
 markdown_extensions:
   - admonition
   - pymdownx.details
