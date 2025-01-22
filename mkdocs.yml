@@ -1,0 +1,34 @@
+site_name: AvatarManager
+copyright: "&copy; 2025 じゅううん"
+repo_url: https://github.com/Closetheworld/AvatarManager
+repo_name: AvatarManager
+theme:
+  name: material
+  locale: ja
+  features:
+  - navigation.top
+  - navigation.indexes
+plugins:
+  search:
+    lang: 'ja'
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Closetheworld
+  generator: false
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - attr_list
+  - pymdownx.highlight:
+      use_pygments: true
+      noclasses: true
+      pygments_style: colorful
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
